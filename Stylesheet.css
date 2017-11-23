@@ -44,7 +44,7 @@ body{
     justify-content: center;
 }
 .footer{
-    margin: 2% 0% 1% 0%;
+    margin: -2% 0% 1% 0%;
     padding: 5%
 }
 .inputDiv{
@@ -53,6 +53,40 @@ body{
     justify-content: center;
     align-content: center;
 }
-a,a:hover{
+a,a:hover,a:visited,a:active{
     text-decoration-line: none;
+}
+
+.sbar{
+    z-index: 89;
+}
+
+.aside_design{
+    width: 17%;
+    box-shadow: 2px 0px 1px #c3c3c3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow-y: auto;
+    margin: -2.5% 0.5% 0% 0%;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+article > p{
+    text-align: justify;
+    padding: 1% 1% 1% 2%;
+}
+.article_content{
+    width: 65%;   
+}
+
+@media screen and (max-width:992px){
+    .article_content{
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aqua;
+    }
 }
