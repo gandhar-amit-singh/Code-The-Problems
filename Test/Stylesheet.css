@@ -1,0 +1,115 @@
+.header{
+    font-weight: 400;
+}
+.tengerine{
+   font-family: 'Tangerine',serif;
+}
+.lobster{
+   font-family: 'Lobster',serif;
+}
+.allerta{
+    font-family:'Allerta Stencil';
+}
+
+.titles{
+    z-index: 1;
+    text-shadow:2px 2px 1.5px #888;
+}
+.wrapper{
+    min-width:250px;
+    height:60px;
+    text-decoration: none;
+    display: flex;
+    border-width: 1px;
+    justify-content: space-around;
+    padding: inherit;
+    border-left:4px solid green;
+}
+.flexContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.recentTutorial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    max-width: 75%;
+    margin: 1% 1% 3% 1%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_container{
+    padding: 5%;
+}
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+a,a:hover,a:visited,a:active{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.sbar{
+    z-index: 89;
+}
+
+.aside_design{
+    width: 17%;
+    box-shadow: 2px 0px 1px #c3c3c3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow-y: auto;
+    margin: -2.0% 0.5% 0% 0%;
+}
+.main_content{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+article > p{
+    text-align: justify;
+    padding: 1% 1% 1% 2%;
+}
+
+.article_content{
+    width: 65%;   
+}
+
+input[type=text]{
+    outline-color: transparent;
+}
+
+input[type=password]{
+    outline-color: transparent;
+}
+
+.formUp{
+    display: none;
+}
+
+@media screen and (max-width:992px){
+    .article_content{
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width:800px){
+    .nav_menus{
+        display: none;
+    }
+    .formUp{
+        display: inline-block;
+        padding: 3%;
+    }
+}
